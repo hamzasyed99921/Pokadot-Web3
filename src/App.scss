@@ -1,0 +1,729 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+// header section
+
+.dropdown {
+  font-family: "Inter", sans-serif;
+  a {
+    font-size: 16px;
+    color: rgb(173, 173, 173);
+    font-weight: 650;
+
+    &:hover {
+      color: #1e1e1e;
+    }
+  }
+  ul {
+    li {
+      font-size: 16px;
+      color: rgb(173, 173, 173);
+      font-weight: 650;
+    }
+  }
+}
+
+.header_right {
+  font-family: "Inter", sans-serif;
+  li {
+    font-size: 16px;
+    color: rgb(173, 173, 173);
+    font-weight: 650;
+    cursor: pointer;
+    &:hover {
+      color: #1e1e1e;
+    }
+  }
+  .suport_btn {
+    color: rgb(173, 173, 173);
+    border: 2px solid rgb(173, 173, 173);
+    border-radius: 50px;
+    padding: 5px 15px;
+    &:hover {
+      color: #1e1e1e;
+      border-color: #1e1e1e;
+    }
+  }
+}
+
+.navbar {
+  font-family: "Inter", sans-serif;
+  .nav-link {
+    font-size: 20px;
+    padding: 16px 18px 0;
+    color: #1e1e1e;
+    font-weight: 500;
+    margin: 0 20px;
+  }
+}
+
+// header section end
+
+// hero section
+.hero_section {
+  padding: 32px 20px;
+
+  .container {
+    padding: 72px 10px 0;
+  }
+
+  .hero_left {
+    h2 {
+      font-size: 5rem;
+      color: #1e1e1e;
+      font-weight: 800;
+      margin-bottom: 16px;
+    }
+    p {
+      font-size: 24px;
+      color: #1e1e1e;
+      font-weight: 400;
+      margin-bottom: 16px;
+    }
+    a {
+      text-decoration: none;
+      color: #e6007a;
+      border: 2px solid #e6007a;
+      padding: 14px 22px;
+      border-radius: 30px;
+      font-size: 18px;
+      font-weight: 650;
+      background: linear-gradient(to right, #e6007a 50%, transparent 50%);
+      background-size: 200% 100%;
+      background-position: right bottom;
+      transition: all 0.2s ease-out;
+      &:hover {
+        background-position: left bottom;
+        color: #fff;
+        transform: scale(1.1);
+        border: none;
+      }
+    }
+  }
+}
+// hero section end
+
+// card section
+.card_section {
+  .container {
+    padding: 146px 20px 0;
+  }
+  .card {
+    h5 {
+      font-size: 28px;
+      font-weight: 650;
+    }
+    p {
+      font-size: 18px;
+      font-weight: 400;
+    }
+  }
+}
+.card_bottom {
+  padding: 0 0 96px;
+  h3 {
+    font-size: 2.7rem;
+    font-weight: 700;
+  }
+  a {
+    text-decoration: none;
+    color: #e6007a;
+    border: 2px solid #e6007a;
+    padding: 14px 20px;
+    border-radius: 30px;
+    font-size: 18px;
+    font-weight: 650;
+    background: linear-gradient(to right, #e6007a 50%, transparent 50%);
+    background-size: 200% 100%;
+    background-position: right bottom;
+    transition: all 0.2s ease-out;
+    &:hover {
+      background-position: left bottom;
+      color: #fff;
+      transform: scale(1.1);
+      // border: none;
+    }
+  }
+}
+// card section end
+
+// network section
+.network_section {
+  // padding: 0 0 0px;
+  background-color: #172026;
+  .container {
+    padding: 96px 0 0;
+
+    h2 {
+      color: #fff;
+      font-size: 3.6rem;
+      font-weight: 600;
+    }
+    p {
+      color: #fff;
+      font-size: 24px;
+      margin: 36px 0 0;
+    }
+    .card {
+      background-color: #172026;
+      .card-body {
+        h5 {
+          font-size: 24px;
+          color: #fff;
+        }
+        p {
+          font-size: 19px;
+          font-weight: 500;
+        }
+      }
+    }
+  }
+}
+
+// network section end
+
+// protocol section
+.protocol_section {
+  background-color: #e6007a;
+  .container {
+    padding: 96px 0 96px;
+    h2 {
+      color: #fff;
+      font-size: 3.4rem;
+      font-weight: 800;
+      margin: 0 0 16px;
+    }
+    p {
+      font-size: 1.5rem;
+      color: #fff;
+      margin: 0 0 16px;
+      font-weight: 400;
+    }
+  }
+}
+// protocol section end
+
+// Team section
+.team_section {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgb(0, 0, 0, 0.5)),
+    url("./media/images/team.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+
+  h2 {
+    font-size: 5rem;
+    font-weight: 700;
+  }
+  button {
+    text-decoration: none;
+    color: #fff;
+    border: 2px solid #e6007a;
+    padding: 14px 20px;
+    border-radius: 30px;
+    font-size: 18px;
+    font-weight: 650;
+    background: transparent;
+    background: linear-gradient(to right, #e6007a 50%, transparent 50%);
+    background-size: 200% 100%;
+    background-position: right bottom;
+    transition: all 0.2s ease-out;
+    &:hover {
+      background-position: left top;
+      transform: scale(1.7);
+      color: #fff;
+      // border: none;
+    }
+  }
+}
+// Team section end
+
+// Blog section Start
+.blog_section {
+  .container {
+    padding: 96px 0;
+
+    h2 {
+      font-size: 3.6rem;
+      font-weight: 700;
+    }
+    .card {
+      small {
+        color: #e6007a;
+        font-size: 18px;
+        font-weight: 500;
+      }
+      h5 {
+        font-size: 22px;
+        font-weight: 600;
+        margin: 0 0 16px;
+      }
+      p {
+        font-size: 18px;
+      }
+      .card_footer {
+        span {
+          font-size: 20px;
+          color: #1e1e1e;
+          font-weight: 500;
+        }
+      }
+    }
+  }
+  .blog_botm {
+    padding: 72px 0 144px;
+    h3 {
+      font-size: 3.7rem;
+      font-weight: 700;
+    }
+    a {
+      text-decoration: none;
+      color: #e6007a;
+      border: 2px solid #e6007a;
+      padding: 16px 20px;
+      border-radius: 30px;
+      font-size: 18px;
+      font-weight: 650;
+      background: linear-gradient(to right, #e6007a 50%, transparent 50%);
+      background-size: 200% 100%;
+      background-position: right bottom;
+      transition: all 0.2s ease-out;
+      &:hover {
+        background-position: left bottom;
+        transform: scale(1.1);
+        color: #fff;
+        border: none;
+      }
+    }
+    p {
+      color: #1e1e1e;
+      font-size: 18px;
+      font-weight: 500;
+    }
+  }
+}
+// Blog section end
+
+.msg_img {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  margin-right: 40px;
+  display: flex;
+  justify-content: end;
+  z-index: 1;
+  padding: 20px;
+  img {
+    width: 20%;
+    padding: 20px;
+    border-radius: 50px;
+    cursor: pointer;
+    background-color: #e6007a;
+    &:hover {
+      transform: scale(1.1);
+    }
+  }
+}
+// Footer section
+.footer {
+  .container {
+    padding: 96px 0 36px;
+
+    .list {
+      p {
+        font-size: 24px;
+        font-weight: 700;
+      }
+      li {
+        padding: 6px 0;
+        a {
+          text-decoration: none;
+          font-size: 18px;
+          font-weight: 500;
+
+          color: #b7b8bb;
+          cursor: pointer;
+
+          &:hover {
+            color: #fff;
+          }
+        }
+      }
+    }
+    .icons {
+      p {
+        font-size: 18px;
+        color: #b7b8bb;
+        font-weight: 500;
+      }
+      button {
+        background-color: transparent;
+        text-decoration: none;
+        color: #fff;
+        border: 2px solid #e6007a;
+        padding: 10px 20px;
+        border-radius: 30px;
+        font-size: 18px;
+        font-weight: 650;
+
+        background: linear-gradient(to right, #e6007a 50%, transparent 50%);
+        background-size: 200% 100%;
+        background-position: right bottom;
+        transition: all 0.2s ease-out;
+        &:hover {
+          background-position: left top;
+          transform: scale(1.1);
+        }
+      }
+    }
+  }
+}
+// Footer section end
+
+@media screen and (max-width: 600px) {
+  .hero_left {
+    h2 {
+      font-size: 2.5rem !important;
+      color: #1e1e1e;
+      font-weight: 600;
+      margin-bottom: 16px;
+    }
+    a {
+      padding: 12px 14px !important;
+
+      font-size: 15px !important;
+      font-weight: 650;
+    }
+  }
+  .msg_img {
+    margin-right: 45px !important;
+    margin-bottom: 40px !important;
+  }
+  .hero_after_img {
+    img {
+      width: 98% !important;
+    }
+  }
+}
+
+//////////////////////////////////////////////////// Technology page Start//////////////////////////////////////////////
+.tecnolgy_hero {
+  .container {
+    padding: 36px 0;
+
+    .row {
+      padding: 72px 12px;
+      h2 {
+        font-size: 4rem;
+        font-weight: 800;
+        margin: 0 0 36px;
+      }
+    }
+  }
+}
+// Technology page end
+
+// Blockchain section
+.blockchain_bg {
+  background-color: #172026;
+  // height: 100vh;
+  .row {
+    // padding: 96px 0;
+  }
+  .blockchain_img {
+    overflow: hidden !important;
+    img {
+      width: 100%;
+      transform: scale(1.4) !important;
+    }
+  }
+  h2 {
+    font-size: 35px;
+    font-weight: 750;
+    margin: 0 0 16px;
+  }
+  h5 {
+    font-size: 24px;
+    font-weight: 400;
+    margin: 0 0 16px;
+  }
+  p {
+    font-size: 19px;
+    font-weight: 400;
+    margin: 0 0 16px;
+  }
+  .card {
+    border: none;
+    cursor: pointer;
+    h6 {
+      color: #000;
+      font-size: 24px;
+      margin-bottom: 6px;
+    }
+    p {
+      color: #1e1e1e;
+      font-size: 20px;
+      font-weight: 500;
+    }
+  }
+  .card-body {
+    padding: 8px;
+    img {
+      width: 20%;
+    }
+  }
+}
+// Blockchain section end
+
+// Network section
+.network_bg {
+  background-color: #e6007a;
+  .container {
+    padding: 96px 0;
+    .network_txt {
+      color: #fff;
+      padding: 72px 82px;
+      h2 {
+        font-size: 44px;
+        font-weight: 800;
+        margin-bottom: 16px;
+      }
+      p {
+        font-size: 20px;
+        font-weight: 500;
+      }
+    }
+  }
+}
+// Network section end
+
+// Connect section start
+.connect_bg {
+  .container {
+    padding: 96px 0;
+    h2 {
+      font-size: 44px;
+      font-weight: 700;
+      margin-bottom: 16px;
+    }
+
+    h3 {
+      font-size: 22px;
+      font-weight: bold;
+    }
+    p {
+      font-size: 18px;
+      margin: 0 0 16px;
+      font-weight: 400;
+    }
+  }
+}
+// Connect section end
+
+// Best tech start
+.best_bg {
+  background-color: #efefef;
+  .container {
+    padding: 72px 96px;
+    h2 {
+      font-size: 44px;
+      font-weight: 700;
+      margin-bottom: 16px;
+    }
+    p {
+      font-size: 18px;
+      margin: 0 0 16px;
+      font-weight: 500;
+    }
+  }
+}
+// Best tech end
+
+// Transection section start
+.trnsection_bg {
+  background-color: #172026;
+  .container {
+    padding: 96px 0;
+    h2 {
+      font-size: 44px;
+      font-weight: 700;
+      margin-bottom: 16px;
+    }
+    p {
+      color: #fff;
+      font-size: 22px;
+      margin: 0 0 16px;
+      font-weight: 400;
+    }
+    button {
+      background-color: transparent;
+      text-decoration: none;
+      color: #fff;
+      border: 2px solid #fff;
+      padding: 10px 20px;
+      border-radius: 30px;
+      font-size: 18px;
+      font-weight: 650;
+      background-size: 200% 100%;
+      background-position: right bottom;
+      transition: all 0.2s ease-out;
+      &:hover {
+        background-position: left top;
+        background-color: #fff;
+        color: #e6007a;
+        transform: scale(1.1);
+      }
+    }
+  }
+  strong {
+    color: #fff;
+    font-size: 22px;
+  }
+  h5 {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+  }
+}
+// Transection section end
+
+// Ground section
+.ground_bg {
+  background-color: #e6007a;
+  .container {
+    padding: 96px 0;
+    .ground_txt {
+      color: #fff;
+      padding: 72px 82px;
+      h2 {
+        font-size: 44px;
+        font-weight: 800;
+        margin-bottom: 16px;
+      }
+      p {
+        font-size: 20px;
+        font-weight: 500;
+      }
+    }
+  }
+}
+// Ground section end
+
+// Grid section start
+.grid_bg {
+  .container {
+    padding: 96px 0 72px;
+    // padding: 24px 12px 0;
+    h1 {
+      font-size: 40px;
+      font-weight: 700;
+    }
+    p {
+      color: #1e1e1e;
+      font-size: 18px;
+      font-weight: 500;
+    }
+  }
+}
+// Grid section end
+
+// Roadmap section
+.roadmap_bg {
+  background-color: #e6007a;
+  .container {
+    padding: 96px 0;
+    .roadmap_txt {
+      color: #fff;
+      padding: 72px 82px;
+      h2 {
+        font-size: 44px;
+        font-weight: 800;
+        margin-bottom: 16px;
+      }
+      p {
+        font-size: 20px;
+        font-weight: 500;
+      }
+      button {
+        background-color: transparent;
+        text-decoration: none;
+        color: #fff;
+        border: 2px solid #fff;
+        padding: 10px 20px;
+        border-radius: 30px;
+        font-size: 18px;
+        font-weight: 650;
+        background-size: 200% 100%;
+        background-position: right bottom;
+        transition: all 0.2s ease-out;
+        &:hover {
+          background-position: left top;
+          background-color: #fff;
+          color: #e6007a;
+          transform: scale(1.1);
+        }
+      }
+    }
+  }
+}
+// Roadmap section end
+
+// Card section start
+.card_bg {
+  .container {
+    padding: 96px 0;
+    h2 {
+      font-size: 44px;
+      font-weight: 800;
+      margin-bottom: 16px;
+    }
+    .card {
+      border: none;
+      p {
+        font-size: 18px;
+        font-weight: 400;
+       
+      }
+    }
+  }
+}
+// card section end
+
+// Start Section
+.start_bg{
+    .container {
+        padding: 96px 0;
+        h2 {
+            font-size: 44px;
+            font-weight: 800;
+            margin-bottom: 16px;
+          }
+          button {
+            background-color: transparent;
+            text-decoration: none;
+            color: #e6007a;
+            border: 2px solid #e6007a;
+            padding: 10px 20px;
+            border-radius: 30px;
+            font-size: 18px;
+            font-weight: 650;
+    
+            background: linear-gradient(to right, #e6007a 50%, transparent 50%);
+            background-size: 200% 100%;
+            background-position: right bottom;
+            transition: all 0.2s ease-out;
+            &:hover {
+              background-position: left top;
+              transform: scale(1.1);
+              color: #fff;
+            }
+          }
+}
+}
+// Start Section end

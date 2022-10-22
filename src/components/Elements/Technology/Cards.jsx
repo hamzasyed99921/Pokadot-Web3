@@ -5,7 +5,7 @@ const Cards = () => {
     <>
       <div className="card_bg">
         <div className="container">
-          <h2 className="text-center">
+          <h2 className="text-center text-white">
             What are teams building on <br /> Polkadot? Just a few examples:
           </h2>
           <div className="row ">

@@ -57,17 +57,14 @@ const Blockchain = () => {
                   />
 
                   <div className="mx-3">
-                    <h6 className="card-subtitle mb-2 text-muted">GitHub</h6>
-                    <p>Latest version & history.</p>
+                    <h6 className="card-subtitle mb-2 text-muted">Element Chat</h6>
+                    <p>Get your question.</p>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-          <div className="container">
-            <div className="col-md-4 col-12"></div>
-            <div className="col-md-4 col-12"></div>
-          </div>
+          
           <div className="row ">
             <div className="col-md-9 col-12 mt-5">
               <div className="blockchain_img">

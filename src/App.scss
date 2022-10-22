@@ -6,6 +6,10 @@
   box-sizing: border-box;
 }
 
+p{
+    font-family: "Inter", sans-serif;
+}
+
 // header section
 
 .dropdown {
@@ -726,4 +730,624 @@
           }
 }
 }
+
+@media screen and (max-width: 600px) {
+    .tecnolgy_hero{
+        h2{
+            font-size: 2.5rem !important;
+      color: #1e1e1e;
+      font-weight: 600;
+      margin-bottom: 16px;
+        }
+    }
+    .ground_bg{
+        h2{
+            font-size: 2.5rem !important;
+        font-weight: 600;
+        text-align: center !important;
+        margin-bottom: 16px;
+        }
+    }
+}
 // Start Section end
+
+
+/////////////////////////////////////////////// Community Page start /////////////////////////////////////////////////
+
+// Hero section
+.com_hero{
+    padding: 36px 0;
+    .container{
+        padding: 72px 12px;
+        h2 {
+            font-size: 5rem;
+            font-weight: 800;
+            margin-bottom: 16px;
+          }
+          p {
+            font-size: 24px;
+            font-weight: 400;
+          }
+    }
+}
+// Hero End
+
+// Card section
+.card_back{
+    background-color: #172026;
+    .contain{
+        padding: 96px 0;
+        
+    }
+    .row{
+        img{
+            width: 20%;
+        }
+        .card{
+            border-radius: 30px;
+            h6{
+                color: #000 !important;
+                font-size: 22px;
+            }
+            small{
+                font-size: 18px;
+            }
+        }
+    }
+    p{
+        font-size: 22px;
+        span{
+            font-size: 15px;
+            font-weight: bold;
+            background-color: transparent;
+            text-decoration: none;
+            color: #fff;
+            border: 1px solid #e6007a;
+            padding: 2px 6px;
+            border-radius: 30px;
+            cursor: pointer;
+            &:hover {
+              transform: scale(1.8) !important;
+              color: #fff !important;
+              background-color: #e6007a;
+            }
+        }
+    }
+   
+}
+// Card section end
+
+// Invoved section
+.involved_bg{
+    background-color: #e6007a;
+    .container {
+      padding: 96px 0;
+      .involved_txt {
+        color: #fff;
+        padding: 72px 82px;
+        h2 {
+          font-size: 44px;
+          font-weight: 800;
+          margin-bottom: 16px;
+        }
+        p {
+          font-size: 20px;
+          font-weight: 500;
+        }
+    }
+}
+}
+// Invoved section end
+
+
+// Validater start 
+.validater_bg{
+    .container{
+        padding: 96px 0;
+        h2 {
+            font-size: 50px;
+            font-weight: 800;
+            margin-bottom: 16px;
+          }
+          h3{
+            font-weight: bold;
+          }
+          p{
+            color: #1e1e1e;
+            font-size: 20px;
+            font-weight: 400;
+          }
+          li{
+              color: #1e1e1e;
+              font-size: 20px;
+              font-weight: 400;
+              span{
+                  font-size: 16px;
+                  color: #e6007a;
+              }
+          }
+          button {
+            background-color: transparent;
+            text-decoration: none;
+            color: #e6007a;
+            border: 2px solid #e6007a;
+            padding: 10px 20px;
+            border-radius: 30px;
+            font-size: 18px;
+            font-weight: 650;
+    
+            background: linear-gradient(to right, #e6007a 50%, transparent 50%);
+            background-size: 200% 100%;
+            background-position: right bottom;
+            transition: all 0.2s ease-out;
+            &:hover {
+              background-position: left top;
+              transform: scale(1.1);
+              color: #fff;
+            }
+          }
+    }
+}
+// Validater end
+
+// Ambasidor section start
+.ambasidor_bg{
+    background-color: #efefef;
+    .container{
+        padding: 96px 0;
+        h2 {
+            font-size: 50px;
+            font-weight: 800;
+            margin-bottom: 16px;
+          }
+          p{
+            color: #1e1e1e;
+            font-size: 20px;
+            font-weight: 400;
+          }
+          button {
+            background-color: transparent;
+            text-decoration: none;
+            color: #e6007a;
+            border: 2px solid #e6007a;
+            padding: 10px 20px;
+            border-radius: 30px;
+            font-size: 18px;
+            font-weight: 650;
+    
+            background: linear-gradient(to right, #e6007a 50%, transparent 50%);
+            background-size: 200% 100%;
+            background-position: right bottom;
+            transition: all 0.2s ease-out;
+            &:hover {
+              background-position: left top;
+              transform: scale(1.1);
+              color: #fff;
+            }
+          }
+    }
+}
+// Ambasidor section end
+
+// Events section start
+.event_bg{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgb(0,0,0,0.5)), url('./media/images/event.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    .container{
+        padding: 70px 0;
+        h2 {
+            font-size: 50px;
+            font-weight: 800;
+            margin-bottom: 16px;
+          }
+          p{
+            color: #1e1e1e;
+            font-size: 20px;
+            font-weight: 400;
+          }
+          button {
+            background-color: transparent;
+            text-decoration: none;
+            color: #e6007a;
+            border: 2px solid #e6007a;
+            padding: 10px 20px;
+            border-radius: 30px;
+            font-size: 18px;
+            font-weight: 650;
+    
+            background: linear-gradient(to right, #e6007a 50%, transparent 50%);
+            background-size: 200% 100%;
+            background-position: right bottom;
+            transition: all 0.2s ease-out;
+            &:hover {
+              background-position: left top;
+              transform: scale(1.1);
+              color: #fff;
+            }
+          }
+    }
+}
+// Events section end
+
+// Chat section start
+.chat_bg{
+    .container{
+        padding: 96px 0;
+        h2 {
+            font-size: 50px;
+            font-weight: 800;
+            margin-bottom: 16px;
+          }
+          p{
+            color: #1e1e1e;
+            font-size: 20px;
+            font-weight: 400;
+          }
+          button {
+            background-color: transparent;
+            text-decoration: none;
+            color: #e6007a;
+            border: 2px solid #e6007a;
+            padding: 10px 20px;
+            border-radius: 30px;
+            font-size: 18px;
+            font-weight: 650;
+    
+            background: linear-gradient(to right, #e6007a 50%, transparent 50%);
+            background-size: 200% 100%;
+            background-position: right bottom;
+            transition: all 0.2s ease-out;
+            &:hover {
+              background-position: left top;
+              transform: scale(1.1);
+              color: #fff;
+            }
+          }
+    }
+}
+// Chat section end
+
+
+/////////////////////////////////////////////// About page start ///////////////////////////////////////////////
+
+.mission_bg{
+    background-color: #172026;
+    .container{
+        padding: 96px 0;
+
+        h3{
+            font-weight: 800;
+            font-size: 44px;
+            color: white;
+            margin: 0 0 16px;
+        }
+        p{
+            font-size: 20px;
+            color: #fff;
+            margin: 36px 0 16px;
+        }button {
+            background-color: transparent;
+            text-decoration: none;
+            color: #e6007a;
+            border: 2px solid #e6007a;
+            padding: 10px 20px;
+            border-radius: 30px;
+            font-size: 18px;
+            font-weight: 650;
+    
+            background: linear-gradient(to right, #e6007a 50%, transparent 50%);
+            background-size: 200% 100%;
+            background-position: right bottom;
+            transition: all 0.2s ease-out;
+            &:hover {
+              background-position: left top;
+              transform: scale(1.1);
+              color: #fff;
+            }
+          }
+    }
+}
+
+// Banner secction start
+.banner_bg{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgb(0,0,0,0.5)) ,url('./media/images/banner\ \(2\).jpg');
+    background-position: top center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    .container{
+        padding: 96px 0;
+        h2{
+            font-size: 50px;
+            font-weight: 800;
+            margin-bottom: 16px;
+        }
+    }
+}
+.bottom_card{
+    margin-top: -34px;
+    .card{
+        border: none;
+        border-radius: 25px;
+        height: 30rem;
+        h3{
+            font-size: 22px;
+            font-weight: bold;
+            &:hover{
+                cursor: pointer;
+                color: #e6007a;
+            }
+        }
+        small{
+            font-size: 18px;
+            font-weight: 400;
+        }
+        p{
+            font-size: 17px;
+            color: #1e1e1e;
+        }
+    }
+}
+.bottom_logo{
+    padding: 96px 0;
+    .container{
+        h4{
+            font-size: 42px;
+            font-weight: 800;
+            margin-bottom: 16px;
+        }
+    }
+}
+// Banner secction end
+
+// Touch section 
+.touch_bg{
+    background-color: #172026;
+    .container{
+        padding: 96px 0;
+        .card{
+            border-radius: 20px;
+            cursor: pointer;
+            img{
+                width: 15%;
+            }
+            h2{
+                font-size: 50px;
+                font-weight: 800;
+                margin-bottom: 16px;
+            }
+            h6{
+                font-size: 22px;
+                font-weight: bold;
+                color: #1e1e1e !important;
+            }
+            small{
+                font-size: 17px;
+                font-weight: 600;
+
+                span{
+                    color: #e6007a;
+                }
+            }
+        }
+        h5{
+            font-size: 50px;
+            font-weight: 800;
+            margin-bottom: 16px;
+        }
+        p{
+            font-size: 22px;
+            font-weight: 400;
+            margin-bottom: 16px;
+        }
+    }   
+}
+// Touch section end
+
+
+// ////////////////////////////////////////Blog Page start////////////////////////////////////////////////////
+
+.blog_card{
+    .container{
+        padding: 96px 0;
+        h2{
+            font-size: 55px;
+            font-weight: 800;
+            margin-bottom: 16px;
+        }
+        small{
+            
+            font-size: 17px;
+            color: #e6007a;
+            font-weight: bold;
+        }
+        p{
+            font-size: 18px;
+
+        }
+    }
+    .blog_botm{
+        h3{
+            font-size: 46px;
+            font-weight: 800;
+            margin-bottom: 16px;
+        }
+        button {
+            background-color: transparent;
+            text-decoration: none;
+            color: #e6007a;
+            border: 2px solid #e6007a;
+            padding: 10px 20px;
+            border-radius: 30px;
+            font-size: 18px;
+            font-weight: 650;
+    
+            background: linear-gradient(to right, #e6007a 50%, transparent 50%);
+            background-size: 200% 100%;
+            background-position: right bottom;
+            transition: all 0.2s ease-out;
+            &:hover {
+              background-position: left top;
+              transform: scale(1.1);
+              color: #fff;
+            }
+          }
+    }
+}
+
+///////////////////////////////////////////Build Section start////////////////////////////////////////////////////
+.build_bg{
+    .container{
+        padding: 96px 0;
+        h2{
+            font-size: 54px;
+            font-weight: 800;
+            margin-bottom: 16px;
+        }
+        p{
+            font-size: 22px;
+            font-weight: 400;
+            margin-bottom: 16px;
+        }
+        button {
+            background-color: transparent;
+            text-decoration: none;
+            color: #e6007a;
+            border: 2px solid #e6007a;
+            padding: 15px 20px;
+            border-radius: 30px;
+            font-size: 18px;
+            font-weight: 650;
+    
+            background: linear-gradient(to right, #e6007a 50%, transparent 50%);
+            background-size: 200% 100%;
+            background-position: right bottom;
+            transition: all 0.2s ease-out;
+            &:hover {
+              background-position: left top;
+              transform: scale(1.1);
+              color: #fff;
+            }
+          }
+    }
+}
+
+// Grid section
+.grid_backg{
+    background-color: #172026;
+    .container{
+        padding: 96px 0;
+
+        h2{
+            font-size: 42px;
+            font-weight: 800;
+            margin-bottom: 16px;
+        }
+        h3{
+            color: #e6007a;
+            font-weight: 400;
+            font-size: 20px;
+        }span{
+            color: #fff;
+            cursor: pointer;
+        }
+        h4{
+            font-size: 24px;
+            font-weight: 700;
+        }
+        p{
+            font-size: 18px;
+        }
+    }
+}
+// Grid section end
+
+// Cards section
+.card_backbg{
+    .container{
+        padding: 96px 0;
+        .card{border: none;}
+        h2{
+            font-size: 42px;
+            font-weight: 800;
+            margin-bottom: 16px;
+        }
+        p{
+            font-size: 22px;
+            color: #e6007a;
+            font-weight: bold;
+        }
+        h5{
+            font-weight: 500;
+            font-size: 17px;
+        }
+    }
+    button {
+        background-color: transparent;
+        text-decoration: none;
+        color: #e6007a;
+        border: 2px solid #e6007a;
+        padding: 15px 20px;
+        border-radius: 30px;
+        font-size: 18px;
+        font-weight: 650;
+
+        background: linear-gradient(to right, #e6007a 50%, transparent 50%);
+        background-size: 200% 100%;
+        background-position: right bottom;
+        transition: all 0.2s ease-out;
+        &:hover {
+          background-position: left top;
+          transform: scale(1.1);
+          color: #fff;
+        }
+      }
+}
+//Cards section end
+
+// ////////////////////////////////////////Contact page ////////////////////////////////////////////////// 
+
+.hero_backbg{
+    .container{
+        padding: 96px 0;
+        h2{
+            font-size: 54px;
+            font-weight: 800;
+            margin-bottom: 16px;
+        }
+    }
+}
+
+.connect_botm{
+    .container{
+        padding: 96px 0;
+        h3{
+            font-size: 42px;
+            font-weight: 800;
+            margin-bottom: 16px;
+        }
+        button {
+            background-color: transparent;
+            text-decoration: none;
+            color: #e6007a;
+            border: 2px solid #e6007a;
+            padding: 15px 20px;
+            border-radius: 30px;
+            font-size: 18px;
+            font-weight: 650;
+    
+            background: linear-gradient(to right, #e6007a 50%, transparent 50%);
+            background-size: 200% 100%;
+            background-position: right bottom;
+            transition: all 0.2s ease-out;
+            &:hover {
+              background-position: left top;
+              transform: scale(1.1);
+              color: #fff;
+            }
+          }
+    }
+}

@@ -4,7 +4,7 @@ const Connect = () => {
   return (
     <>
         <div className=" connect_botm d-flex justify-content-center">
-            <div className="text-center container">
+            <div className="text-center container" data-aos="fade-up">
               <h3 className="mb-5">Subscribe to the newsletter <br /> to hear about updates and <br /> events.</h3>
               <button href="#" className="">
                 Join the Community

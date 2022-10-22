@@ -10,7 +10,7 @@ const Cards = () => {
           </h2>
           <div className="row ">
             <div className="col-md-4 col-12 mt-5">
-              <div className="card shadow" style={{height: '10rem'}}>
+              <div className="card shadow" style={{height: '100%'}}>
                 <div className="card-body">
                   <p>
                     <strong>Smart contract chains</strong> with WebAssembly
@@ -20,7 +20,7 @@ const Cards = () => {
               </div>
             </div>
             <div className="col-md-4 col-12 mt-5">
-              <div className="card shadow" style={{height: '10rem'}}>
+              <div className="card shadow" style={{height: '100%'}}>
                 <div className="card-body">
                   <p>
                     <strong>Data curation networks </strong> that connect all file storage chains into curated data sets
@@ -29,7 +29,7 @@ const Cards = () => {
               </div>
             </div>
             <div className="col-md-4 col-12 mt-5" >
-              <div className="card shadow" style={{height: '10rem'}}>
+              <div className="card shadow" style={{height: '100%'}}>
                 <div className="card-body">
                   <p>
                     <strong>Oracle chains</strong> that make off-chain data available to all contracts on the Polkadot network (ChainLink)
@@ -40,7 +40,7 @@ const Cards = () => {
           </div>
           <div className="row">
             <div className="col-md-4 col-12  mt-5">
-              <div className="card shadow" style={{height: '10rem'}}>
+              <div className="card shadow" style={{height: '100%'}}>
                 <div className="card-body">
                   <p>
                     <strong>Identity chains</strong> that link accounts to a persistent identity and enable access to other parachains through fewer accounts (Kilt)
@@ -49,7 +49,7 @@ const Cards = () => {
               </div>
             </div>
             <div className="col-md-4 col-12  mt-5">
-              <div className="card shadow" style={{height: '10rem'}}>
+              <div className="card shadow" style={{height: '100%'}}>
                 <div className="card-body">
                   <p>
                     <strong>Financial chains </strong> that allow you to hold all your assets in one portfolio, including via bridges to Bitcoin, Ethereum, Bitcoin Cash, Litecoin and ZCash (Acala, Parallel Finance)
@@ -58,7 +58,7 @@ const Cards = () => {
               </div>
             </div>
             <div className="col-md-4 col-12  mt-5" >
-              <div className="card shadow" style={{height: '10rem'}}>
+              <div className="card shadow" style={{height: '100%'}}>
                 <div className="card-body">
                   <p>
                     <strong>Internet of Things chains</strong> that set IoT standards for machine-to-machine communication (Robonomics)
@@ -70,7 +70,7 @@ const Cards = () => {
           </div>
           <div className="row ">
             <div className="col-md-4 col-12 mt-5">
-              <div className="card shadow" style={{height: '10rem'}}>
+              <div className="card shadow" style={{height: '100%'}}>
                 <div className="card-body">
                   <p>
                     <strong>Zero Knowledge</strong> privacy chains, or bridges to existing ZK-snarks chains
@@ -79,7 +79,7 @@ const Cards = () => {
               </div>
             </div>
             <div className="col-md-4 col-12 mt-5">
-              <div className="card shadow" style={{height: '10rem'}}>
+              <div className="card shadow" style={{height: '100%'}}>
                 <div className="card-body">
                   <p>
                     <strong>File storage chains </strong> that incentivize storing data on-chain
@@ -88,7 +88,7 @@ const Cards = () => {
               </div>
             </div>
             <div className="col-md-4 col-12 mt-5" >
-              <div className="card shadow" style={{height: '10rem'}}>
+              <div className="card shadow" style={{height: '100%'}}>
                 <div className="card-body">
                   <p>
                     <strong>Bridge to Ethereum,</strong> allowing Ethereum smart contracts to interact with the Polkadot network

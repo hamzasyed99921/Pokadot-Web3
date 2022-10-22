@@ -5,7 +5,7 @@ const Ground = () => {
     <>
       <div className="ground_bg">
         <div className="container">
-          <div className="ground_txt ">
+          <div className="ground_txt  " data-aos="fade-up">
             <h2 className="text-center">Groundbreaking Technology</h2>
             <p className="text-center">
               Polkadot is solving many of the problems that have held back

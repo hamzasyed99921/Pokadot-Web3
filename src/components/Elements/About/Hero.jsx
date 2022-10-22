@@ -4,7 +4,7 @@ const Hero = () => {
   return (
     <>
       <div className="com_hero">
-        <div className="container">
+        <div className="container " data-aos="fade-up">
           <h2 className="text-center">
             About Polkadot, <br /> a platform for Web3
           </h2>

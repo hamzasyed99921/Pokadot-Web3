@@ -17,11 +17,12 @@ const Protocols = () => {
               </p>
             </div>
           </div>
-          <div className="row mt-5 ">
-            <div className="col-md-3 col-6 mt-4 text-center"><img src="assets/images/circle1.svg" className="img-fluid " style={{width: '20%'}} alt="" /></div>
-            <div className="col-md-3 col-6 mt-4 text-center"><img src="assets/images/circle2.svg" className="img-fluid " style={{width: '20%'}} alt="" /></div>
-            <div className="col-md-3 col-6 mt-4 text-center"><img src="assets/images/circle3.svg" className="img-fluid " style={{width: '20%'}} alt="" /></div>
-            <div className="col-md-3 col-6 mt-4 text-center"><img src="assets/images/circle4.svg" className="img-fluid " style={{width: '20%'}} alt="" /></div>
+         
+          <div className="row mt-5 " style={{margin: '0px'}}>
+            <div className="col-lg-3 col-md-6 col-12 mt-4 text-center"><img src="assets/images/circle1.svg" className="img-fluid " style={{width: '20%'}} alt="" /></div>
+            <div className="col-lg-3 col-md-6 col-12 mt-4 text-center"><img src="assets/images/circle2.svg" className="img-fluid " style={{width: '20%'}} alt="" /></div>
+            <div className="col-lg-3 col-md-6 col-12 mt-4 text-center"><img src="assets/images/circle3.svg" className="img-fluid " style={{width: '20%'}} alt="" /></div>
+            <div className="col-lg-3 col-md-6 col-12 mt-4 text-center"><img src="assets/images/circle4.svg" className="img-fluid " style={{width: '20%'}} alt="" /></div>
           </div>
         </div>
       </section>

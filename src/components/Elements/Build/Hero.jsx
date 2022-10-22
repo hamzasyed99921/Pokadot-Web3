@@ -4,7 +4,7 @@ const Hero = () => {
   return (
     <>
       <div className="build_bg">
-        <div className="container">
+        <div className="container" data-aos="fade-up">
           <div className="text-center">
           <h2 >Build on Polkadot</h2>
           <p>

@@ -15,7 +15,7 @@ const Home = () => {
       <Network/>
       <Protocols/>
       <Team/>
-      <Blog/>
+      {/* <Blog/> */}
       
     </>
   )

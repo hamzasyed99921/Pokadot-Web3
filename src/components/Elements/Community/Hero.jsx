@@ -4,8 +4,8 @@ const Hero = () => {
   return (
     <>
       <div className="com_hero">
-      <div className="container">
-        <h2 className="text-center">
+      <div className="container" data-aos="fade-up">
+        <h2 className="text-center" >
           Join the Polkadot <br /> community
         </h2>
         <p className="text-center">

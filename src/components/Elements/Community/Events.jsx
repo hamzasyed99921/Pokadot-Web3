@@ -4,7 +4,7 @@ const Events = () => {
   return (
     <>
       <div className="event_bg">
-        <div className="container">
+        <div className="container" data-aos="fade-up">
           <h2 className="text-white mb-5">
             Upcoming <br /> events
           </h2>

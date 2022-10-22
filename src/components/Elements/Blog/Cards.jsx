@@ -10,7 +10,7 @@ const Cards = () => {
             <div className="col-md-4 col-12 mt-4">
               <div
                 className="card shadow position-relative"
-                style={{ border: "none", height: "39.8rem" }}
+                style={{ border: "none", height: "110%" }}
               >
                 <img
                   src="assets/images/image1.png"
@@ -49,7 +49,7 @@ const Cards = () => {
             <div className="col-md-4 col-12 mt-4">
               <div
                 className="card shadow position-relative"
-                style={{ border: "none", height: "39.8rem" }}
+                style={{ border: "none", height: "110%" }}
               >
                 <img
                   src="assets/images/image2.png"
@@ -83,7 +83,7 @@ const Cards = () => {
             <div className="col-md-4 col-12 mt-4">
               <div
                 className="card shadow position-relative"
-                style={{ border: "none", height: "39.8rem" }}
+                style={{ border: "none", height: "110%" }}
               >
                 <img
                   src="assets/images/image3.jpg"
@@ -122,7 +122,7 @@ const Cards = () => {
             <div className="col-md-4 col-12 mt-4">
               <div
                 className="card shadow position-relative"
-                style={{ border: "none", height: "39.8rem" }}
+                style={{ border: "none", height: "110%" }}
               >
                 <img
                   src="assets/images/f9.png"
@@ -161,7 +161,7 @@ const Cards = () => {
             <div className="col-md-4 col-12 mt-4">
               <div
                 className="card shadow position-relative"
-                style={{ border: "none", height: "39.8rem" }}
+                style={{ border: "none", height: "110%" }}
               >
                 <img
                   src="assets/images/f8.png"
@@ -195,7 +195,7 @@ const Cards = () => {
             <div className="col-md-4 col-12 mt-4">
               <div
                 className="card shadow position-relative"
-                style={{ border: "none", height: "39.8rem" }}
+                style={{ border: "none", height: "110%" }}
               >
                 <img
                   src="assets/images/f7.jpg"
@@ -234,7 +234,7 @@ const Cards = () => {
             <div className="col-md-4 col-12 mt-4">
               <div
                 className="card shadow position-relative"
-                style={{ border: "none", height: "39.8rem" }}
+                style={{ border: "none", height: "110%" }}
               >
                 <img
                   src="assets/images/f1.png"
@@ -273,7 +273,7 @@ const Cards = () => {
             <div className="col-md-4 col-12 mt-4">
               <div
                 className="card shadow position-relative"
-                style={{ border: "none", height: "39.8rem" }}
+                style={{ border: "none", height: "110%" }}
               >
                 <img
                   src="assets/images/f2.png"
@@ -307,7 +307,7 @@ const Cards = () => {
             <div className="col-md-4 col-12 mt-4">
               <div
                 className="card shadow position-relative"
-                style={{ border: "none", height: "39.8rem" }}
+                style={{ border: "none", height: "110%" }}
               >
                 <img
                   src="assets/images/f3.png"
@@ -346,7 +346,7 @@ const Cards = () => {
             <div className="col-md-4 col-12 mt-4">
               <div
                 className="card shadow position-relative"
-                style={{ border: "none", height: "39.8rem" }}
+                style={{ border: "none", height: "110%" }}
               >
                 <img
                   src="assets/images/f4.png"
@@ -385,7 +385,7 @@ const Cards = () => {
             <div className="col-md-4 col-12 mt-4">
               <div
                 className="card shadow position-relative"
-                style={{ border: "none", height: "39.8rem" }}
+                style={{ border: "none", height: "110%" }}
               >
                 <img
                   src="assets/images/f5.jpeg"
@@ -419,7 +419,7 @@ const Cards = () => {
             <div className="col-md-4 col-12 mt-4">
               <div
                 className="card shadow position-relative"
-                style={{ border: "none", height: "39.8rem" }}
+                style={{ border: "none", height: "110%" }}
               >
                 <img
                   src="assets/images/f6.png"

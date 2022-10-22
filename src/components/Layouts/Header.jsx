@@ -8,7 +8,7 @@ import { Link } from "react-router-dom";
 const Header = () => {
   return (
     <>
-      <div className="d-none d-md-block">
+      <div className=" d-md-none  d-none d-lg-block navbar-expand-sm" >
         <div className="container d-flex justify-content-between align-items-center">
           <div className="dropdown">
             <a
@@ -38,7 +38,7 @@ const Header = () => {
               </li>
             </ul>
           </div>
-
+        
           <div className="header_right" style={{ width: "40%" }}>
             <ul className="d-flex mt-3  list-unstyled align-items-center">
               <li className="mx-3">Lightpaper</li>
@@ -77,7 +77,7 @@ const Header = () => {
         </div>
       </div>
       <hr style={{ margin: "0%" }} />
-      <nav className="navbar navbar-expand-lg ">
+      <nav className="navbar navbar-expand-lg  bg-white" style={{zIndex: '1'}} id="navbar_top">
         <div className="container">
           <Link className="navbar-brand" to="/">
             <img

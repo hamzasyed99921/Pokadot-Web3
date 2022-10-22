@@ -10,7 +10,7 @@ const Blog = () => {
             <div className="col-md-4 col-12">
               <div
                 className="card shadow position-relative"
-                style={{ border: "none", height: "39.8rem" }}
+                style={{ border: "none", height: "120%" }}
               >
                 <img
                   src="assets/images/image1.png"
@@ -49,7 +49,7 @@ const Blog = () => {
             <div className="col-md-4 col-12">
               <div
                 className="card shadow position-relative"
-                style={{ border: "none", height: "39.8rem" }}
+                style={{ border: "none", height: "120%" }}
               >
                 <img
                   src="assets/images/image2.png"
@@ -83,7 +83,7 @@ const Blog = () => {
             <div className="col-md-4 col-12">
               <div
                 className="card shadow position-relative"
-                style={{ border: "none", height: "39.8rem" }}
+                style={{ border: "none", height: "120%" }}
               >
                 <img
                   src="assets/images/image3.jpg"

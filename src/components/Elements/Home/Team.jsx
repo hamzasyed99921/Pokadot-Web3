@@ -4,7 +4,7 @@ const Team = () => {
   return (
     <section className="team_section">
       <div className="container">
-        <div className="pt-5">
+        <div className="pt-5 " data-aos="fade-up">
           <h2 className="text-white ">
             Founded by some of the blockchain industry’s <br /> foremost builders
           </h2>

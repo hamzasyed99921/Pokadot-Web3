@@ -198,7 +198,7 @@ p{
 .protocol_section {
   background-color: #e6007a;
   .container {
-    padding: 96px 0 96px;
+    padding: 96px 0;
     h2 {
       color: #fff;
       font-size: 3.4rem;
@@ -1096,7 +1096,7 @@ p{
     .card{
         border: none;
         border-radius: 25px;
-        height: 30rem;
+        height: 100%;
         h3{
             font-size: 22px;
             font-weight: bold;

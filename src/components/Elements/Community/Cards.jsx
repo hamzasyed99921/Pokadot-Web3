@@ -8,7 +8,7 @@ const Cards = () => {
           <div className="row">
             <div
               className="col-md-6 col-xl-4  card_top col-12"
-              style={{ width: "26rem", marginTop: "-36px" }}
+              style={{ width: "22rem", marginTop: "-36px" }}
             >
               <div className="card shadow">
                 <div className="card-body d-flex  align-items-center">
@@ -27,7 +27,7 @@ const Cards = () => {
             </div>
             <div
               className="col-md-6 col-xl-4 pt-lg-0 card_top  col-12"
-              style={{ width: "26rem", marginTop: "-36px" }}
+              style={{ width: "22rem", marginTop: "-36px" }}
             >
               <div className="card shadow">
                 <div className="card-body d-flex  align-items-center">
@@ -48,7 +48,7 @@ const Cards = () => {
             </div>
             <div
               className="col-md-6 col-xl-4 pt-lg-0 card_top  col-12"
-              style={{ width: "26rem", marginTop: "-36px" }}
+              style={{ width: "22rem", marginTop: "-36px" }}
             >
               <div className="card shadow">
                 <div className="card-body d-flex  align-items-center">
@@ -69,7 +69,7 @@ const Cards = () => {
           <div className="row mt-4 mt-sm-2 ">
             <div
               className="col-md-6 col-xl-4 card_top col-12"
-              style={{ width: "26rem", marginTop: "10px" }}
+              style={{ width: "22rem", marginTop: "10px" }}
             >
               <div className="card shadow">
                 <div className="card-body d-flex  align-items-center">
@@ -88,7 +88,7 @@ const Cards = () => {
             </div>
             <div
               className="col-md-6 col-xl-4 card_top col-12"
-              style={{ width: "26rem", marginTop: "10px" }}
+              style={{ width: "22rem", marginTop: "10px" }}
             >
               <div className="card shadow">
                 <div className="card-body d-flex  align-items-center">
@@ -107,7 +107,7 @@ const Cards = () => {
             </div>
             <div
               className="col-md-6 col-xl-4 card_top col-12"
-              style={{ width: "26rem", marginTop: "10px" }}
+              style={{ width: "22rem", marginTop: "10px" }}
             >
               <div className="card shadow">
                 <div className="card-body d-flex  align-items-center">
@@ -130,7 +130,7 @@ const Cards = () => {
           <div className="row mt-4 ">
             <div
               className="col-md-6 col-xl-4 card_top col-12"
-              style={{ width: "26rem", marginTop: "10px" }}
+              style={{ width: "22rem", marginTop: "10px" }}
             >
               <div className="card shadow">
                 <div className="card-body d-flex  align-items-center">
@@ -151,7 +151,7 @@ const Cards = () => {
             </div>
             <div
               className="col-md-6 col-xl-4 card_top col-12 "
-              style={{ width: "26rem", marginTop: "10px" }}
+              style={{ width: "22rem", marginTop: "10px" }}
             >
               <div className="card shadow">
                 <div className="card-body d-flex  align-items-center">

@@ -7,7 +7,7 @@ const Cards = () => {
         <div className="container">
           <div className="row">
             <div
-              className="col-md-6 col-xl-4  col-12"
+              className="col-md-6 col-xl-4  card_top col-12"
               style={{ width: "26rem", marginTop: "-36px" }}
             >
               <div className="card shadow">
@@ -26,7 +26,7 @@ const Cards = () => {
               </div>
             </div>
             <div
-              className="col-md-6 col-xl-4 pt-lg-0  col-12"
+              className="col-md-6 col-xl-4 pt-lg-0 card_top  col-12"
               style={{ width: "26rem", marginTop: "-36px" }}
             >
               <div className="card shadow">
@@ -47,7 +47,7 @@ const Cards = () => {
               </div>
             </div>
             <div
-              className="col-md-6 col-xl-4 pt-lg-0  col-12"
+              className="col-md-6 col-xl-4 pt-lg-0 card_top  col-12"
               style={{ width: "26rem", marginTop: "-36px" }}
             >
               <div className="card shadow">
@@ -68,7 +68,7 @@ const Cards = () => {
           </div>
           <div className="row mt-4 mt-sm-2 ">
             <div
-              className="col-md-6 col-xl-4 col-12"
+              className="col-md-6 col-xl-4 card_top col-12"
               style={{ width: "26rem", marginTop: "10px" }}
             >
               <div className="card shadow">
@@ -87,7 +87,7 @@ const Cards = () => {
               </div>
             </div>
             <div
-              className="col-md-6 col-xl-4 col-12"
+              className="col-md-6 col-xl-4 card_top col-12"
               style={{ width: "26rem", marginTop: "10px" }}
             >
               <div className="card shadow">
@@ -106,7 +106,7 @@ const Cards = () => {
               </div>
             </div>
             <div
-              className="col-md-6 col-xl-4 col-12"
+              className="col-md-6 col-xl-4 card_top col-12"
               style={{ width: "26rem", marginTop: "10px" }}
             >
               <div className="card shadow">
@@ -127,9 +127,9 @@ const Cards = () => {
               </div>
             </div>
           </div>
-          <div className="row mt-4 " style={{margin: '0 150px'}}>
+          <div className="row mt-4 ">
             <div
-              className="col-md-6 col-xl-4 col-12"
+              className="col-md-6 col-xl-4 card_top col-12"
               style={{ width: "26rem", marginTop: "10px" }}
             >
               <div className="card shadow">
@@ -150,7 +150,7 @@ const Cards = () => {
               </div>
             </div>
             <div
-              className="col-md-6 col-xl-4 col-12 "
+              className="col-md-6 col-xl-4 card_top col-12 "
               style={{ width: "26rem", marginTop: "10px" }}
             >
               <div className="card shadow">

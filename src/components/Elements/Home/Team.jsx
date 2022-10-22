@@ -9,7 +9,7 @@ const Team = () => {
             Founded by some of the blockchain industry’s <br /> foremost builders
           </h2>
         </div>
-        <button href="#" className="my-4">Learn about the Polkadot Team</button>
+        <button href="#" className="my-4 team_btn">Learn about the Polkadot Team</button>
       </div>
     </section>
   );

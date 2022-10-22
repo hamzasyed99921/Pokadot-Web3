@@ -5,6 +5,9 @@
   padding: 0px;
   box-sizing: border-box;
 }
+body{
+    // background-color: #24942d !important;
+}
 
 p{
     font-family: "Inter", sans-serif;
@@ -147,10 +150,10 @@ p{
     background-position: right bottom;
     transition: all 0.2s ease-out;
     &:hover {
-      background-position: left bottom;
+      background-position: left top;
       color: #fff;
-      transform: scale(1.1);
-      // border: none;
+      transform: scale(1.1) !important;
+      border: none !important;
     }
   }
 }
@@ -240,7 +243,7 @@ p{
     transition: all 0.2s ease-out;
     &:hover {
       background-position: left top;
-      transform: scale(1.7);
+      transform: scale(1.1);
       color: #fff;
       // border: none;
     }
@@ -382,7 +385,8 @@ p{
         transition: all 0.2s ease-out;
         &:hover {
           background-position: left top;
-          transform: scale(1.1);
+          transform: scale(1.1) !important;
+          
         }
       }
     }
@@ -412,6 +416,16 @@ p{
   .hero_after_img {
     img {
       width: 98% !important;
+    }
+  }
+  .team_section{
+    h2{
+        font-size: 2.5rem !important;
+        font-weight: 600;
+    }
+    .team_btn{
+        padding: 7px 12px;
+    font-size: 14px;
     }
   }
 }
@@ -748,6 +762,9 @@ p{
         margin-bottom: 16px;
         }
     }
+    .card_top{
+        margin-top: 30px !important;
+    }
 }
 // Start Section end
 
@@ -771,7 +788,14 @@ p{
     }
 }
 // Hero End
-
+@media screen and (max-width: 600px) {
+    .com_hero{
+        h2{
+            font-size: 3rem !important;
+            font-weight: 700;
+        }
+    }
+}
 // Card section
 .card_back{
     background-color: #172026;

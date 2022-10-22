@@ -36,7 +36,7 @@ const Validater = () => {
                 New validators will be chosen every 24 hours on mainnet. You’ll
                 need to create separate accounts for Controller, Session, and
                 Stash keys on the Polkadot UI
-                (https://polkadot.js.org/apps/#/accounts/create). These accounts
+                 accounts
                 will be used to represent and control the validator node you
                 just set up. <br /> <br />
                 Next you will need to get some DOT from the faucet or by asking

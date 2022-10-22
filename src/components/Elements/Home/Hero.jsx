@@ -1,4 +1,5 @@
 import React from "react";
+import  { ScrollRotate } from 'react-scroll-rotate';
 
 const Hero = () => {
   return (
@@ -21,11 +22,13 @@ const Hero = () => {
                 </div>
               </div>
             </div>
-            <div className="col-lg-6  col-12 position-relative mt-5 " >
-              <img src="assets/images/hero.png" className="img-fluid " style={{width: '450px'}} alt="" />
+            <div className="col-lg-6  col-12 d-flex justify-content-center position-relative mt-5  " >
+            <ScrollRotate>
+              <img src="assets/images/hero.png" className="img-fluid  " style={{width: '450px'}} alt="" />
               <div className='position-absolute hero_after_img' style={{top: 0}} >
               <img src="assets/images/hero-outer.svg" style={{width: '450px'}} className="" alt="" />
               </div>
+            </ScrollRotate>
             </div>
           </div>
         </div>

@@ -7,7 +7,7 @@ const Cards = () => {
         <div className="container">
           <h2 className="text-center">Tools that come with Substrate</h2>
           <div className="row mt-5">
-            <div className="col-md-4 col-12">
+            <div className="col-md-4 col-12 mt-4">
               <div className="card shadow" style={{ height: "8rem" }}>
                 <div className="card-body">
                   <p>
@@ -17,7 +17,7 @@ const Cards = () => {
                 </div>
               </div>
             </div>
-            <div className="col-md-4 col-12">
+            <div className="col-md-4 col-12 mt-4">
               <div className="card shadow" style={{ height: "8rem" }}>
                 <div className="card-body">
                   <p>
@@ -27,7 +27,7 @@ const Cards = () => {
                 </div>
               </div>
             </div>
-            <div className="col-md-4 col-12">
+            <div className="col-md-4 col-12 mt-4">
               <div className="card shadow" style={{ height: "8rem" }}>
                 <div className="card-body">
                   <p>
@@ -39,7 +39,7 @@ const Cards = () => {
             </div>
           </div>
           <div className="row mt-5">
-            <div className="col-md-4 col-12">
+            <div className="col-md-4 col-12 mt-4">
               <div className="card shadow" style={{ height: "8rem" }}>
                 <div className="card-body">
                   <p>
@@ -49,7 +49,7 @@ const Cards = () => {
                 </div>
               </div>
             </div>
-            <div className="col-md-4 col-12">
+            <div className="col-md-4 col-12 mt-4">
               <div className="card shadow" style={{ height: "8rem" }}>
                 <div className="card-body">
                   <p>
@@ -59,7 +59,7 @@ const Cards = () => {
                 </div>
               </div>
             </div>
-            <div className="col-md-4 col-12"></div>
+            <div className="col-md-4 col-12 mt-4"></div>
           </div>
         </div>
         <div className="container text-center">

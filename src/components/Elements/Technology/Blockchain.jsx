@@ -7,7 +7,7 @@ const Blockchain = () => {
         <div className="container">
           <div className="row">
             <div
-              className="col-md-4 col-12"
+              className="col-md-4 col-12 card_top"
               style={{ width: "26rem", marginTop: "-36px" }}
             >
               <div className="card shadow">
@@ -26,7 +26,7 @@ const Blockchain = () => {
               </div>
             </div>
             <div
-              className="col-md-4 col-12"
+              className="col-md-4 col-12 card_top"
               style={{ width: "26rem", marginTop: "-36px" }}
             >
               <div className="card shadow">
@@ -45,7 +45,7 @@ const Blockchain = () => {
               </div>
             </div>
             <div
-              className="col-md-4 col-12"
+              className="col-md-4 col-12 card_top"
               style={{ width: "26rem", marginTop: "-36px" }}
             >
               <div className="card shadow">

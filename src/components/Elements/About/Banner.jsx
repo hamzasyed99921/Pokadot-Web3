@@ -15,7 +15,7 @@ const Banner = () => {
         <div className="container">
           <div className="row">
             <div className="col-md-4 col-12">
-              <div className="card shadow px-2 py-3">
+              <div className="card shadow px-2 py-3 mb-4">
                 <div className="card-body">
                   <h3>Robert Habermeier</h3>
                   <small>Founder</small>
@@ -31,7 +31,7 @@ const Banner = () => {
               </div>
             </div>
             <div className="col-md-4 col-12">
-              <div className="card shadow px-2 py-3">
+              <div className="card shadow px-2 py-3 mb-4 ">
                 <div className="card-body">
                   <h3>Dr. Gavin Wood</h3>
                   <small>Founder</small>
@@ -48,7 +48,7 @@ const Banner = () => {
               </div>
             </div>
             <div className="col-md-4 col-12">
-              <div className="card shadow px-2 py-3">
+              <div className="card shadow px-2 py-3 mb-4">
                 <div className="card-body">
                   <h3>Peter Czaban</h3>
                   <small>Founder</small>

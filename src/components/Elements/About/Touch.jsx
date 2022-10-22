@@ -8,7 +8,7 @@ const Touch = () => {
           <h2 className="text-center text-white">Get in touch</h2>
           <div className="row">
             <div className="col-md-4 col-12">
-              <div className="card shadow">
+              <div className="card shadow mb-3">
                 <div className="card-body d-flex  align-items-center">
                   <img
                     src="assets/images/chat.svg"
@@ -28,7 +28,7 @@ const Touch = () => {
               </div>
             </div>
             <div className="col-md-4 col-12">
-              <div className="card shadow">
+              <div className="card shadow mb-3">
                 <div className="card-body d-flex  align-items-center">
                   <img
                     src="assets/images/newsletter.svg"
@@ -48,7 +48,7 @@ const Touch = () => {
               </div>
             </div>
             <div className="col-md-4 col-12">
-              <div className="card shadow">
+              <div className="card shadow mb-3">
                 <div className="card-body d-flex  align-items-center">
                   <img
                     src="assets/images/email.svg"

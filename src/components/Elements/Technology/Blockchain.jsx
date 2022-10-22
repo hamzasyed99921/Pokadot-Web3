@@ -8,7 +8,7 @@ const Blockchain = () => {
           <div className="row">
             <div
               className="col-md-4 col-12 card_top"
-              style={{ width: "20rem", marginTop: "-36px" }}
+              style={{ width: "25rem", marginTop: "-36px" }}
             >
               <div className="card shadow">
                 <div className="card-body d-flex  align-items-center">
@@ -27,7 +27,7 @@ const Blockchain = () => {
             </div>
             <div
               className="col-md-4 col-12 card_top"
-              style={{ width: "20rem", marginTop: "-36px" }}
+              style={{ width: "25rem", marginTop: "-36px" }}
             >
               <div className="card shadow">
                 <div className="card-body d-flex  align-items-center">
@@ -46,7 +46,7 @@ const Blockchain = () => {
             </div>
             <div
               className="col-md-4 col-12 card_top"
-              style={{ width: "20rem", marginTop: "-36px" }}
+              style={{ width: "25rem", marginTop: "-36px" }}
             >
               <div className="card shadow">
                 <div className="card-body d-flex  align-items-center">

@@ -6,9 +6,9 @@ const Cards = () => {
       <div className="card_back">
         <div className="container">
           <div className="row">
-          <div className="row" style={{ marginTop: "-36px" }}>
+          <div className="row mx-1 d-flex justify-content-center" style={{ marginTop: "-36px" }}>
             <div
-              className="col-md-4  mb-2  card_top col-12"
+              className="col-md-4  card_top col-12"
               style={{ width: "22rem"}}
             >
               <div className="card shadow">
@@ -20,14 +20,14 @@ const Cards = () => {
                   />
 
                   <div className="mx-3">
-                    <h6 className="card-subtitle mb-2 text-muted">Twitter</h6>
+                    <h6 className="card-subtitle  text-muted">Twitter</h6>
                     <small>Follow @Polkadot</small>
                   </div>
                 </div>
               </div>
             </div>
             <div
-              className="col-md-4 mb-2   pt-lg-0 card_top  col-12"
+              className="col-md-4  pt-lg-0 card_top  col-12"
               style={{ width: "22rem"}}
             >
               <div className="card shadow">
@@ -68,7 +68,7 @@ const Cards = () => {
             </div>
           </div>
           </div>
-          <div className="row mt-4 mt-sm-2 ">
+          <div className="row   d-flex justify-content-center">
             <div
               className="col-md-4  card_top col-12"
               style={{ width: "22rem", marginTop: "10px" }}
@@ -129,7 +129,7 @@ const Cards = () => {
               </div>
             </div>
           </div>
-          <div className="row mt-4 ">
+          <div className="row d-flex justify-content-center">
             <div
               className="col-md-4  card_top col-12"
               style={{ width: "22rem", marginTop: "10px" }}

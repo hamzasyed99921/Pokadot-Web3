@@ -53,6 +53,7 @@ const Blockchain = () => {
                   <img
                     src="assets/images/element.svg"
                     className="img-fluid "
+                    
                     alt=""
                   />
 

@@ -503,10 +503,10 @@ p{
     // padding: 96px 0;
   }
   .blockchain_img {
-    overflow: hidden !important;
-    img {
+      overflow: hidden !important;
+      img {
+        transform: scale(1.2) !important;
       width: 100%;
-      transform: scale(1.4) !important;
     }
   }
   h2 {
@@ -520,7 +520,7 @@ p{
     margin: 0 0 16px;
   }
   p {
-    font-size: 19px;
+    font-size: 16px;
     font-weight: 400;
     margin: 0 0 16px;
   }

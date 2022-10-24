@@ -14,7 +14,7 @@ const Footer = () => {
       >
         <div className="container">
           <div className="row list">
-            <div className="col-md-3 col-6" >
+            <div className="col-md-3 col-12" >
               <ul className="list-unstyled">
                 <p>General</p>
                 <li>
@@ -43,7 +43,7 @@ const Footer = () => {
                 </li>
               </ul>
             </div>
-            <div className="col-md-3 col-6">
+            <div className="col-md-3 col-12">
               <ul className="list-unstyled">
                 <p>Technology</p>
                 <li>
@@ -72,7 +72,7 @@ const Footer = () => {
                 </li>
               </ul>
             </div>
-            <div className="col-md-3 col-6">
+            <div className="col-md-3 col-12">
               <ul className="list-unstyled">
                 <p>Community</p>
                 <li>
@@ -104,7 +104,7 @@ const Footer = () => {
                 </li>
               </ul>
             </div>
-            <div className="col-md-3 col-6 icons">
+            <div className="col-md-3 col-12 icons">
               <ul className="list-unstyled d-flex justify-content-around">
                 <li>
                   <a href="#">

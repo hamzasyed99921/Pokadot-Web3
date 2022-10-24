@@ -82,8 +82,8 @@ const Header = () => {
           <Link className="navbar-brand" to="/">
             <img
               src="assets/images/logo-polkadot.svg"
-              className="img-fluid"
-              style={{width:'60%'}}
+              className="img-fluid "
+              style={{width:'50%'}}
               alt="logo"
             />
           </Link>

@@ -6,12 +6,13 @@ const Blockchain = () => {
       <div className="blockchain_bg">
         <div className="container">
           <div className="row">
+          <div className="row d-flex  justify-content-sm-center" style={{marginTop: "-36px" }}>
             <div
               className="col-md-4 col-12 card_top"
-              style={{ width: "22rem", marginTop: "-36px" }}
+              style={{ width: "22rem" }}
             >
-              <div className="card shadow">
-                <div className="card-body d-flex  align-items-center">
+              <div className="card mb-3 shadow">
+                <div className="card-body  d-flex  align-items-center">
                   <img
                     src="assets/images/github.svg"
                     className="img-fluid"
@@ -27,9 +28,9 @@ const Blockchain = () => {
             </div>
             <div
               className="col-md-4 col-12 card_top"
-              style={{ width: "22rem", marginTop: "-36px" }}
+              style={{ width: "22rem"}}
             >
-              <div className="card shadow">
+              <div className="card mb-3 shadow">
                 <div className="card-body d-flex  align-items-center">
                   <img
                     src="assets/images/documentation.svg"
@@ -45,10 +46,10 @@ const Blockchain = () => {
               </div>
             </div>
             <div
-              className="col-md-4 col-12 card_top"
-              style={{ width: "22rem", marginTop: "-36px" }}
+              className="col-md-4  col-12 card_top"
+              style={{ width: "22rem"}}
             >
-              <div className="card shadow">
+              <div className="card mb-3 shadow">
                 <div className="card-body d-flex  align-items-center">
                   <img
                     src="assets/images/element.svg"
@@ -64,6 +65,7 @@ const Blockchain = () => {
                 </div>
               </div>
             </div>
+          </div>
           </div>
           
           <div className="row ">

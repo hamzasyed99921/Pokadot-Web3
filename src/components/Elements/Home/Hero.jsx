@@ -23,11 +23,11 @@ const Hero = () => {
               </div>
             </div>
             <div className="col-lg-6  col-12 d-flex justify-content-center position-relative mt-5  " >
-            <ScrollRotate  from={270} to={90}>
+            <ScrollRotate animationDuration={2.5}  from={270} to={90}>
               <img src="assets/images/hero.png" className="img-fluid  hero_before_img" style={{width: '400px'}} alt="" />
             </ScrollRotate>
               <div className='position-absolute hero_after_img' style={{top: 0}} >
-            <ScrollRotate from={90} to={270}>
+            <ScrollRotate animationDuration={2.5} from={90} to={270}>
               <img src="assets/images/hero-outer.svg" style={{width: '400px'}} className="" alt="" />
               </ScrollRotate>
               </div>

@@ -444,8 +444,9 @@ p{
     }
   }
   .msg_img {
-    margin-right: 45px !important;
-    margin-bottom: 40px !important;
+    display: none !important;
+    // margin-right: 45px !important;
+    // margin-bottom: 40px !important;
   }
   .hero_before_img{
         width: 260px !important;
@@ -595,7 +596,7 @@ p{
 .best_bg {
   background-color: #efefef;
   .container {
-    padding: 72px 96px;
+    padding: 72px 10px;
     h2 {
       font-size: 44px;
       font-weight: 700;
@@ -665,7 +666,7 @@ p{
     padding: 96px 0;
     .ground_txt {
       color: #fff;
-      padding: 72px 82px;
+      padding: 72px 0px;
       h2 {
         font-size: 4rem;
         font-weight: 800;

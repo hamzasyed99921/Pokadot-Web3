@@ -104,7 +104,7 @@ const Footer = () => {
                 </li>
               </ul>
             </div>
-            <div className="col-md-3 col-12 icons">
+            <div className="col-md-3 col-12 icons px-4">
               <ul className="list-unstyled d-flex justify-content-around">
                 <li>
                   <a href="#">

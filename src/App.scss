@@ -68,7 +68,43 @@ p{
     margin: 0 20px;
   }
 }
-
+.navbar .navbar-toggler-icon {
+    width: 24px;
+    height: 17px;
+    background-image: none !important;
+    position: relative;
+    border-bottom: 2px solid #000;
+    transition: all 300ms linear;
+  }
+  .navbar .navbar-toggler-icon:after,
+  .navbar-toggler-icon:before {
+    width: 24px;
+    position: absolute;
+    height: 2px;
+    background-color: #000;
+    top: 0;
+    left: 0;
+    content: "";
+    z-index: 2;
+    transition: all 300ms linear;
+  }
+  .navbar .navbar-toggler-icon:after {
+    top: 8px;
+  }
+  
+  .navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon:after {
+    transform: rotate(45deg) !important;
+  }
+  .navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon:before {
+    transform: translateY(8px) rotate(-45deg) !important;
+  }
+  .navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
+    border-color: transparent !important;
+  }
+  
+  .navbar-toggler {
+    border: none !important;
+  }
 // header section end
 
 // hero section
@@ -254,7 +290,7 @@ p{
 // Blog section Start
 .blog_section {
   .container {
-    padding: 96px 0;
+    padding: 96px 20px;
 
     h2 {
       font-size: 3.6rem;
@@ -413,9 +449,12 @@ p{
     margin-right: 45px !important;
     margin-bottom: 40px !important;
   }
+  .hero_before_img{
+        width: 260px !important;
+  }
   .hero_after_img {
     img {
-      width: 98% !important;
+      width: 260px !important;
     }
   }
   .team_section{
@@ -427,6 +466,11 @@ p{
         padding: 7px 12px;
     font-size: 14px;
     }
+  }
+  .network_section{
+    p {
+        font-size: 18px !important;
+      }
   }
 }
 
@@ -524,7 +568,7 @@ p{
 // Connect section start
 .connect_bg {
   .container {
-    padding: 96px 0;
+    padding: 96px 20px;
     h2 {
       font-size: 44px;
       font-weight: 700;
@@ -567,7 +611,7 @@ p{
 .trnsection_bg {
   background-color: #172026;
   .container {
-    padding: 96px 0;
+    padding: 96px 20px;
     h2 {
       font-size: 44px;
       font-weight: 700;
@@ -620,7 +664,7 @@ p{
       color: #fff;
       padding: 72px 82px;
       h2 {
-        font-size: 44px;
+        font-size: 4rem;
         font-weight: 800;
         margin-bottom: 16px;
       }
@@ -800,7 +844,7 @@ p{
 .card_back{
     background-color: #172026;
     .contain{
-        padding: 96px 0;
+        padding: 96px 20px;
         
     }
     .row{
@@ -867,7 +911,7 @@ p{
 // Validater start 
 .validater_bg{
     .container{
-        padding: 96px 0;
+        padding: 96px 20px;
         h2 {
             font-size: 50px;
             font-weight: 800;
@@ -918,7 +962,7 @@ p{
 .ambasidor_bg{
     background-color: #efefef;
     .container{
-        padding: 96px 0;
+        padding: 96px 20px;
         h2 {
             font-size: 50px;
             font-weight: 800;
@@ -961,7 +1005,7 @@ p{
     background-size: cover;
     height: 100vh;
     .container{
-        padding: 70px 0;
+        padding: 70px 20px;
         h2 {
             font-size: 50px;
             font-weight: 800;
@@ -1040,7 +1084,7 @@ p{
 .mission_bg{
     background-color: #172026;
     .container{
-        padding: 96px 0;
+        padding: 96px 20px;
 
         h3{
             font-weight: 800;
@@ -1131,7 +1175,7 @@ p{
 .touch_bg{
     background-color: #172026;
     .container{
-        padding: 96px 0;
+        padding: 96px 20px;
         .card{
             border-radius: 20px;
             cursor: pointer;
@@ -1225,7 +1269,7 @@ p{
 ///////////////////////////////////////////Build Section start////////////////////////////////////////////////////
 .build_bg{
     .container{
-        padding: 96px 0;
+        padding: 96px 20px;
         h2{
             font-size: 54px;
             font-weight: 800;
@@ -1263,7 +1307,7 @@ p{
 .grid_backg{
     background-color: #172026;
     .container{
-        padding: 96px 0;
+        padding: 96px 20px;
 
         h2{
             font-size: 42px;
@@ -1292,7 +1336,7 @@ p{
 // Cards section
 .card_backbg{
     .container{
-        padding: 96px 0;
+        padding: 96px 20px;
         .card{border: none;}
         h2{
             font-size: 42px;

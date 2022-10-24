@@ -14,7 +14,7 @@ const Footer = () => {
       >
         <div className="container">
           <div className="row list">
-            <div className="col-md-3 col-12" >
+            <div className="col-md-3 col-6" >
               <ul className="list-unstyled">
                 <p>General</p>
                 <li>

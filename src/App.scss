@@ -1,13 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap");
 
 * {
-  margin: 0px;
-  padding: 0px;
+  margin: 0%;
+  padding: 0%;
   box-sizing: border-box;
 }
-body{
-    // background-color: #24942d !important;
-}
+
 
 p{
     font-family: "Inter", sans-serif;
@@ -200,7 +198,7 @@ p{
   // padding: 0 0 0px;
   background-color: #172026;
   .container {
-    padding: 96px 0 0;
+    padding: 96px 0 ;
 
     h2 {
       color: #fff;

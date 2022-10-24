@@ -8,7 +8,7 @@ import { Link } from "react-router-dom";
 const Header = () => {
   return (
     <>
-      <div className=" d-md-none  d-none d-lg-block navbar-expand-sm" >
+      <div className=" d-md-none  d-none d-lg-block " >
         <div className="container d-flex justify-content-between align-items-center">
           <div className="dropdown">
             <a
@@ -39,7 +39,7 @@ const Header = () => {
             </ul>
           </div>
         
-          <div className="header_right" style={{ width: "40%" }}>
+          <div className="header_right" >
             <ul className="d-flex mt-3  list-unstyled align-items-center">
               <li className="mx-3">Lightpaper</li>
               <li className="mx-3">Whitepaper</li>
